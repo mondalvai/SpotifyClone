@@ -1,6 +1,6 @@
 body{
     font-family: arial;
-    color: grey;
+    color: rgb(128, 128, 128);
     background-color: #040404;
     margin: unset;
     padding-bottom: 2%;
@@ -8,7 +8,7 @@ body{
 }
 
 .banner{
-    background-image: url('images/person.jpg'); 
+    background-image: url('images/pic1.webp'); 
     background-size: cover;
     background-position: center;
     height: 18em;
