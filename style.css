@@ -8,7 +8,7 @@ body{
 }
 
 .banner{
-    background-image: url('images/pic1.webp'); 
+    background-image: url('images\Background.png'); 
     background-size: cover;
     background-position: center;
     height: 18em;
