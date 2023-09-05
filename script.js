@@ -6,7 +6,7 @@ window.addEventListener("DOMContentLoaded", function () {
   
     // Set the default banner image and text
     banner.style.backgroundImage = "url(images/Background.png)";
-    bannerImage.setAttribute("src", "images/Logo.webp");
+    bannerImage.setAttribute("src", "images/Logo.png");
     bannerHeading.textContent = "Music Player";
     bannerText.textContent = "Enjoy and keep listening";
   });
@@ -25,8 +25,8 @@ function playAll(songNumber){
         audioElement.pause();
         playBtn.innerHTML='<img src="images/play-button.svg">';
         
-        banner.style.backgroundImage = "url(images/pic1.webp)";
-        bannerImage.setAttribute("src", "images\Spotify_Logo_RGB_Green.png");
+        banner.style.backgroundImage = "url(images/Background.png)";
+        bannerImage.setAttribute("src", "iamges/logo.png");
         bannerHeading.textContent = "Spotifyy";
         bannerText.textContent = "Enjoy and keep listening";
     }
@@ -37,7 +37,7 @@ function playAll(songNumber){
        
         if (songNumber === 1) {
             // banner.style.backgroundImage = "url()";
-            bannerImage.setAttribute("src", "");
+            //bannerImage.setAttribute("src", "");
             bannerHeading.textContent = "Mike Posner - I took a pill in Ibiza (Cover)";
             bannerText.textContent = "By Ishaan Kaushik";
         } else if (songNumber === 2) {
@@ -47,50 +47,50 @@ function playAll(songNumber){
             bannerText.textContent = "By Ishaan Kaushik";
         }
         else if (songNumber === 3) {
-             banner.style.backgroundImage = "url()";
-             bannerImage.setAttribute("src", "");
+             //banner.style.backgroundImage = "url()";
+             //bannerImage.setAttribute("src", "");
             bannerHeading.textContent = "Kahi to hogi woh (Cover)";
             bannerText.textContent = "By Ishaan Kaushik";
         }
         else if (songNumber === 4) {
-             banner.style.backgroundImage = "url()";
-            bannerImage.setAttribute("src", "");
+             //banner.style.backgroundImage = "url()";
+           // bannerImage.setAttribute("src", "");
             bannerHeading.textContent = "Kasoor (Cover)";
             bannerText.textContent = "By Ishaan Kaushik";
         }
         else if (songNumber === 5) {
-            banner.style.backgroundImage = "url()";
-            bannerImage.setAttribute("src", "");
+           // banner.style.backgroundImage = "url()";
+            //bannerImage.setAttribute("src", "");
             bannerHeading.textContent = "Tu Hai Kahan";
             bannerText.textContent = "By Ishaan Kaushik";
         }
         else if (songNumber === 6) {
-             banner.style.backgroundImage = "url()";
-            bannerImage.setAttribute("src", "");
+             //banner.style.backgroundImage = "url()";
+            //bannerImage.setAttribute("src", "");
             bannerHeading.textContent = "Baarishein - Anuv Jain (Cover)";
             bannerText.textContent = "By Ishaan Kaushik";
         }
         else if (songNumber === 7) {
-            banner.style.backgroundImage = "url()";
-            bannerImage.setAttribute("src", "");
+            //banner.style.backgroundImage = "url()";
+            //bannerImage.setAttribute("src", "");
             bannerHeading.textContent = "Waqt Ki Baatein (Cover)";
             bannerText.textContent = "By Ishaan Kaushik";
         }
         else if (songNumber === 8) {
-            banner.style.backgroundImage = "url()";
-            bannerImage.setAttribute("src", "");
+            //banner.style.backgroundImage = "url()";
+            //bannerImage.setAttribute("src", "");
             bannerHeading.textContent = "Lovely feat. Anika Vidyarthi (Cover)";
             bannerText.textContent = "By Ishaan Kaushik";
         }
         else if (songNumber === 9) {
-            banner.style.backgroundImage = "url()";
-            bannerImage.setAttribute("src", "");
+            //banner.style.backgroundImage = "url()";
+            //bannerImage.setAttribute("src", "");
             bannerHeading.textContent = "Let me down slowly - Alec Benjamin (Cover)";
             bannerText.textContent = "By Ishaan Kaushik";
         }
         else if (songNumber === 10) {
-            banner.style.backgroundImage = "url()";
-            bannerImage.setAttribute("src", "");
+            //banner.style.backgroundImage = "url()";
+            //bannerImage.setAttribute("src", "");
             bannerHeading.textContent = "Jee Le Zara - (Cover)";
             bannerText.textContent = "By Ishaan Kaushik";
         }
