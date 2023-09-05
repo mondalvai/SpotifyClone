@@ -6,7 +6,7 @@ window.addEventListener("DOMContentLoaded", function () {
   
     // Set the default banner image and text
     banner.style.backgroundImage = "url(images/Background.png)";
-    bannerImage.setAttribute("src", "images/Logo.png");
+    bannerImage.setAttribute("src", "images/Logo.webp");
     bannerHeading.textContent = "Music Player";
     bannerText.textContent = "Enjoy and keep listening";
   });
